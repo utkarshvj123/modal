@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div id="popup" class="modal-box"> 
+  <header>
+  <h3>Login</h3>
+  </header>
+  <div class="modal-body">
+    <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input class="user" type="text" placeholder="Enter Username" name="uname" required>
+    <label for="psw"><b>Password</b></label>
+    <input class ="pass" type="password" placeholder="Enter Password" name="psw" required>
+  <button type="submit">Login</button>
+  </div>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me</label>
+  
+   <button type="button" href="#" class="js-modal-close">Cancel</button>
+  </div>
+  </div>
+<a class="js-open-modal" href="#" data-modal-id="popup"> Click me </a>
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="index.js" ></script>
+</body>
+</html>
